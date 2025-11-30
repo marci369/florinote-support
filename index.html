@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>FloriNote – Support & Hilfe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{APP_NAME}} – Support, Hilfe, FAQ, Impressum und Datenschutzerklärung zur Pflanzen-App.">
+        <meta name="robots" content="index,follow">
+
+        <link rel="icon" type="image/png" href="img/favicon-32.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="theme-light lang-de">
+        <div class="app-shell">
+            <header class="nav">
+                <div class="nav-inner">
+                    <div class="brand">
+                        <div class="brand-icon-wrap">
+                            <div class="brand-icon">
+                                <!-- App Icon – Pfad anpassen -->
+                                <img src="img/LeafNote App Icon.png" alt="FloriNote App Icon">
+                            </div>
+                        </div>
+                        <div class="brand-text">
+                            <div class="brand-name">FloriNote</div>
+                            <div class="brand-sub lang-de">Pflanzenpflege & Erinnerungen</div>
+                            <div class="brand-sub lang-en">Plant Care & Reminders</div>
+                        </div>
+                    </div>
+                    <div class="nav-actions">
+                        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Theme umschalten">
+                            <span class="theme-toggle-icon" id="themeIcon">🌞</span>
+                            <span class="lang-de">Hell / Dunkel</span>
+                            <span class="lang-en">Light / Dark</span>
+                        </button>
+                        <div class="pill-divider"></div>
+                        <button class="nav-button is-active" id="langDeBtn" type="button">DE</button>
+                        <button class="nav-button" id="langEnBtn" type="button">EN</button>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="page">
+                    <!-- HERO -->
+                    <section class="hero">
+                        <div class="hero-main">
+                            <div class="hero-badge">
+                                <span class="hero-badge-dot"></span>
+                                <span class="lang-de">Offizielle Support-Seite für FloriNote</span>
+                                <span class="lang-en">Official support page for FloriNote</span>
+                            </div>
+
+                            <h1 class="hero-title lang-de">
+                                Hilfe für deine Pflanzen –<br><span>Support für FloriNote</span>
+                            </h1>
+                            <h1 class="hero-title lang-en">
+                                Help for your plants –<br><span>Support for FloriNote</span>
+                            </h1>
+
+                            <p class="hero-text lang-de">
+                                Hier findest du schnelle Hilfe, Antworten auf häufige Fragen sowie alle rechtlich
+                                erforderlichen Informationen (Impressum &amp; Datenschutz) zu FloriNote.
+                            </p>
+                            <p class="hero-text lang-en">
+                                Here you’ll find quick help, answers to common questions and all legally required
+                                information (imprint &amp; privacy policy) for FloriNote.
+                            </p>
+
+                            <div class="hero-actions">
+                                <a href="#support" class="btn-primary">
+                                    <span class="icon">💚</span>
+                                    <span class="lang-de">Support kontaktieren</span>
+                                    <span class="lang-en">Contact support</span>
+                                </a>
+                                <a href="#faq" class="btn-secondary">
+                                    <span class="icon">❔</span>
+                                    <span class="lang-de">FAQ anzeigen</span>
+                                    <span class="lang-en">View FAQ</span>
+                                </a>
+                            </div>
+                            <p class="pill-note lang-de">
+                                Keine Cookies, kein Tracking. Die App nutzt nur die von Apple bereitgestellten Abo-Daten –
+                                der Entwickler erhält selbst keine personenbezogenen Daten zurück.
+                            </p>
+                            <p class="pill-note lang-en">
+                                No cookies, no tracking. The app only uses subscription data provided by Apple –
+                                the developer does not receive any personal data directly.
+                            </p>
+                        </div>
+
+                        <aside class="hero-card" aria-label="App-Infos & Store-Link">
+                            <div class="hero-card-header">
+                                <div>
+                                    <div class="hero-card-title lang-de">Schnellzugriff</div>
+                                    <div class="hero-card-title lang-en">Quick links</div>
+                                </div>
+                                <div class="hero-card-chip">
+                                    <span class="dot"></span>
+                                    <span class="lang-de">App Store geprüft</span>
+                                    <span class="lang-en">App Store ready</span>
+                                </div>
+                            </div>
+                            <ul class="hero-list">
+                                <li>
+                                    <span class="check">✅</span>
+                                    <span class="lang-de">Support-E-Mail und FAQ auf dieser Seite erreichbar.</span>
+                                    <span class="lang-en">Support email and FAQ available on this page.</span>
+                                </li>
+                                <li>
+                                    <span class="check">✅</span>
+                                    <span class="lang-de">Impressum &amp; Datenschutzerklärung nach deutschem Recht.</span>
+                                    <span class="lang-en">Imprint &amp; privacy policy tailored for German / EU law.</span>
+                                </li>
+                                <li>
+                                    <span class="check">✅</span>
+                                    <span class="lang-de">Keine eigenen Cookies oder Tracking-Skripte.</span>
+                                    <span class="lang-en">No own cookies or tracking scripts.</span>
+                                </li>
+                            </ul>
+                            <div class="hero-meta">
+                                <div class="hero-meta-text">
+                                    <span class="lang-de">Hosting über GitHub Pages.</span>
+                                    <span class="lang-en">Hosted via GitHub Pages.</span><br>
+                                    <span class="lang-de">Verarbeitung durch GitHub gemäß deren Datenschutzerklärung.</span>
+                                    <span class="lang-en">Processing by GitHub according to their privacy policy.</span>
+                                </div>
+                                <div class="badge-store">
+                                    <span class="icon"></span>
+                                    <span class="lang-de">App Store</span>
+                                    <span class="lang-en">App Store</span>
+                                </div>
+                            </div>
+                        </aside>
+                    </section>
+
+                    <!-- SUPPORT & FAQ -->
+                    <section class="section" id="support">
+                        <div class="section-header">
+                            <div>
+                                <h2 class="section-title lang-de">Support &amp; Kontakt</h2>
+                                <h2 class="section-title lang-en">Support &amp; contact</h2>
+                                <p class="section-sub lang-de">
+                                    Bitte gib in deiner Nachricht immer an, welche iOS-Version und welche App-Version du nutzt.
+                                </p>
+                                <p class="section-sub lang-en">
+                                    Please include your iOS version and the app version when contacting support.
+                                </p>
+                            </div>
+                            <div class="tag">
+                                <span class="lang-de">Erforderlich für Apple „Support URL“</span>
+                                <span class="lang-en">Required for Apple “Support URL”</span>
+                            </div>
+                        </div>
+
+                        <div class="card-grid">
+                            <article class="card">
+                                <div class="card-label lang-de">Kontakt</div>
+                                <div class="card-label lang-en">Contact</div>
+                                <div class="card-title lang-de">E-Mail-Support</div>
+                                <div class="card-title lang-en">Email support</div>
+                                <p class="card-text lang-de">
+                                    Für Fragen, Fehlerberichte oder Feedback erreichst du uns per E-Mail:
+                                </p>
+                                <p class="card-text lang-en">
+                                    For questions, bug reports or feedback, please contact us via email:
+                                </p>
+                                <div class="support-contact">
+                                    <!-- TODO: Support-Adresse anpassen -->
+                                    <a href="mailto:{{SUPPORT_EMAIL}}">support@florinote.app</a>
+                                </div>
+                                <p class="card-text lang-de">
+                                    Wir antworten in der Regel innerhalb von <strong>2 Werktagen</strong>.
+                                </p>
+                                <p class="card-text lang-en">
+                                    We usually respond within <strong>2 working days</strong>.
+                                </p>
+                            </article>
+
+                            <article class="card" id="faq">
+                                <div class="card-label">FAQ</div>
+                                <div class="card-title lang-de">Häufige Fragen</div>
+                                <div class="card-title lang-en">Frequently asked questions</div>
+
+                                <div class="faq-item">
+                                    <div class="faq-q lang-de">Wie kündige ich mein Abonnement?</div>
+                                    <div class="faq-q lang-en">How do I cancel my subscription?</div>
+                                    <div class="faq-a lang-de">
+                                        Abos werden ausschließlich über den Apple App Store verwaltet.
+                                        Öffne auf deinem iPhone oder iPad die Einstellungen &gt; Apple-ID &gt; Abonnements
+                                        und wähle LeafNote, um das Abo zu verwalten oder zu kündigen.
+                                    </div>
+                                    <div class="faq-a lang-en">
+                                        Subscriptions are managed exclusively via the Apple App Store.
+                                        On your iPhone or iPad, go to Settings &gt; Apple ID &gt; Subscriptions
+                                        and select LeafNote to manage or cancel your subscription.
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <div class="faq-q lang-de">Welche Daten werden von der App verarbeitet?</div>
+                                    <div class="faq-q lang-en">What data does the app process?</div>
+                                    <div class="faq-a lang-de">
+                                        LeafNote speichert deine Pflanzen- und Erinnerungsdaten lokal auf deinem Gerät.
+                                        Für das Abo werden nur die von Apple bereitgestellten Informationen genutzt.
+                                        Der Entwickler erhält selbst <strong>keine</strong> personenbezogenen Daten von Apple zurück.
+                                    </div>
+                                    <div class="faq-a lang-en">
+                                        LeafNote stores your plant and reminder data locally on your device.
+                                        For subscriptions, only the information provided by Apple is used.
+                                        The developer does <strong>not</strong> receive any personal data directly from Apple.
+                                    </div>
+                                </div>
+
+                                <div class="faq-item">
+                                    <div class="faq-q lang-de">Brauche ich einen Account?</div>
+                                    <div class="faq-q lang-en">Do I need an account?</div>
+                                    <div class="faq-a lang-de">
+                                        Nein. LeafNote funktioniert ohne Registrierung oder Benutzerkonto.
+                                    </div>
+                                    <div class="faq-a lang-en">
+                                        No. LeafNote works without any registration or user account.
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="card">
+                                <div class="card-label lang-de">App-Infos</div>
+                                <div class="card-label lang-en">App info</div>
+                                <div class="card-title lang-de">App Store Eintrag</div>
+                                <div class="card-title lang-en">App Store listing</div>
+                                <p class="card-text lang-de">
+                                    Hier findest du den offiziellen App Store Eintrag von LeafNote:
+                                </p>
+                                <p class="card-text lang-en">
+                                    You can find the official App Store listing for LeafNote here:
+                                </p>
+                                <!-- TODO: App Store URL eintragen -->
+                                <p class="card-text">
+                                    <a href="https://apps.apple.com/app/" target="_blank" rel="noopener noreferrer">
+                                        https://apps.apple.com/app/
+                                    </a>
+                                </p>
+                                <p class="card-text lang-de">
+                                    Die Abrechnung erfolgt ausschließlich über Apple. Es gelten die Nutzungsbedingungen
+                                    und Datenschutzbestimmungen von Apple.
+                                </p>
+                                <p class="card-text lang-en">
+                                    Billing is handled exclusively by Apple. Apple’s terms of use and privacy policy apply.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <!-- LEGAL AREA -->
+                    <section class="section" id="legal">
+                        <div class="section-header">
+                            <div>
+                                <h2 class="section-title lang-de">Rechtliche Informationen</h2>
+                                <h2 class="section-title lang-en">Legal information</h2>
+                            </div>
+                        </div>
+
+                        <div class="legal-wrapper">
+                            <!-- IMPRESSUM / IMPRINT -->
+                            <article class="legal-card" id="impressum">
+                                <h3 class="lang-de">Impressum</h3>
+                                <h3 class="lang-en">Imprint</h3>
+
+                                <p class="lang-de">
+                                    Angaben gemäß § 5 TMG
+                                </p>
+                                <p class="lang-en">
+                                    Information pursuant to § 5 German TMG
+                                </p>
+
+                                <p>
+                                    Marcel du Mont<br>
+                                    Ludwig-Jahn-Straße 36<br>
+                                    23611 Bad Schwartau<br>
+                                    Deutschland
+                                </p>
+
+                                <p>
+                                    <strong class="lang-de">Kontakt</strong>
+                                    <strong class="lang-en">Contact</strong>
+                                    E-Mail: support@florinote.app
+                                </p>
+
+                                <p class="lang-de">
+                                    <strong>Umsatzsteuer</strong><br>
+                                    Gemäß § 19 UStG wird keine Umsatzsteuer ausgewiesen (Kleinunternehmerstatus).
+                                </p>
+                                <p class="lang-en">
+                                    <strong>VAT</strong><br>
+                                    In accordance with § 19 German VAT Act (UStG), no VAT is charged (small business status).
+                                </p>
+
+                                <p class="lang-de">
+                                    <strong>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</strong><br>
+                                    Marcel du Mont<br>
+                                    23611 Bad Schwartau, Deutschland
+                                </p>
+                                <p class="lang-en">
+                                    <strong>Responsible for content according to § 18 (2) MStV</strong><br>
+                                    Marcel du Mont<br>
+                                    23611 Bad Schwartau, Deutschland
+                                </p>
+
+                                <h4 class="lang-de">Haftung für Inhalte</h4>
+                                <h4 class="lang-en">Liability for content</h4>
+                                <p class="lang-de">
+                                    Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten
+                                    nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als
+                                    Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
+                                    Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige
+                                    Tätigkeit hinweisen.
+                                </p>
+                                <p class="lang-en">
+                                    As a service provider, we are responsible for our own content on these pages in accordance
+                                    with general laws. However, according to §§ 8 to 10 TMG we are not obliged to monitor
+                                    transmitted or stored third-party information or to investigate circumstances that indicate
+                                    illegal activity.
+                                </p>
+
+                                <h4 class="lang-de">Online-Streitbeilegung</h4>
+                                <h4 class="lang-en">Online dispute resolution</h4>
+                                <p class="lang-de">
+                                    Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+                                    <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">
+                                        https://ec.europa.eu/consumers/odr
+                                    </a>.
+                                    Unsere E-Mail-Adresse findest du oben im Impressum.
+                                </p>
+                                <p class="lang-en">
+                                    The European Commission provides a platform for online dispute resolution (ODR):
+                                    <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">
+                                        https://ec.europa.eu/consumers/odr
+                                    </a>.
+                                    Our email address can be found above in the imprint.
+                                </p>
+                            </article>
+
+                            <!-- DATENSCHUTZ / PRIVACY -->
+                            <article class="legal-card" id="privacy">
+                                <h3 class="lang-de">Datenschutzerklärung</h3>
+                                <h3 class="lang-en">Privacy policy</h3>
+
+                                <h4 class="lang-de">1. Verantwortlicher</h4>
+                                <h4 class="lang-en">1. Controller</h4>
+                                <p>
+                                    Verantwortlich im Sinne der DSGVO ist:<br>
+                                    Marcel du Mont<br>
+                                    Ludwig-Jahn-Straße 36, 23611 Bad Schwartau, Deutschland<br>
+                                    E-Mail: support@florinote.app
+                                </p>
+
+                                <h4 class="lang-de">2. Hosting über GitHub Pages</h4>
+                                <h4 class="lang-en">2. Hosting via GitHub Pages</h4>
+                                <p class="lang-de">
+                                    Diese Website wird über GitHub Pages gehostet. Beim Aufruf der Website erhebt GitHub
+                                    (GitHub Inc., USA bzw. GitHub B.V., EU) serverseitig Log-Daten (z.&nbsp;B. IP-Adresse,
+                                    Datum und Uhrzeit des Abrufs, Browsertyp). Die Verarbeitung erfolgt in eigener
+                                    Verantwortlichkeit von GitHub. Weitere Informationen findest du in der
+                                    Datenschutzerklärung von GitHub.
+                                </p>
+                                <p class="lang-en">
+                                    This website is hosted via GitHub Pages. When you access this site, GitHub (GitHub Inc.,
+                                    USA and/or GitHub B.V., EU) collects server log data (e.g. IP address, date and time of
+                                    access, browser type). Processing is carried out under GitHub’s own responsibility.
+                                    For details, please refer to GitHub’s privacy policy.
+                                </p>
+
+                                <h4 class="lang-de">3. Keine eigenen Cookies oder Tracking</h4>
+                                <h4 class="lang-en">3. No own cookies or tracking</h4>
+                                <p class="lang-de">
+                                    Wir setzen auf dieser Website keine eigenen Tracking-Cookies und keine Analyse-Tools ein.
+                                    Es werden von uns keine personenbezogenen Nutzungsprofile erstellt.
+                                </p>
+                                <p class="lang-en">
+                                    We do not use our own tracking cookies or analytics tools on this website.
+                                    We do not create personal usage profiles.
+                                </p>
+
+                                <h4 class="lang-de">4. Kontaktaufnahme per E-Mail</h4>
+                                <h4 class="lang-en">4. Contact via email</h4>
+                                <p class="lang-de">
+                                    Wenn du uns per E-Mail kontaktierst, werden die von dir übermittelten Daten ausschließlich
+                                    zur Bearbeitung deiner Anfrage verarbeitet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO
+                                    (Vertragserfüllung bzw. vorvertragliche Maßnahmen) oder Art. 6 Abs. 1 lit. f DSGVO
+                                    (berechtigtes Interesse an der Bearbeitung von Anfragen).
+                                </p>
+                                <p class="lang-en">
+                                    If you contact us by email, the data you provide will be processed solely for handling
+                                    your request. Legal basis is Art. 6(1)(b) GDPR (performance of a contract or steps prior
+                                    to entering into a contract) or Art. 6(1)(f) GDPR (legitimate interest in processing
+                                    enquiries).
+                                </p>
+
+                                <h4 class="lang-de">5. Datenverarbeitung in der App</h4>
+                                <h4 class="lang-en">5. Data processing in the app</h4>
+                                <p class="lang-de">
+                                    Die App FloriNote speichert deine Pflanzen- und Erinnerungsdaten lokal auf deinem
+                                    Gerät. Eine Übermittlung dieser Inhalte an den Entwickler findet nicht statt.
+                                </p>
+                                <p class="lang-en">
+                                    The FloriNote app stores your plant and reminder data locally on your device.
+                                    These contents are not transmitted to the developer.
+                                </p>
+                                <p class="lang-de">
+                                    Für In-App-Käufe und Abonnements nutzt die App ausschließlich die In-App-Kauf-Infrastruktur
+                                    von Apple. Die Abrechnung erfolgt über dein Apple-Konto. Der Entwickler erhält von Apple
+                                    keine personenbezogenen Daten wie Name, E-Mail-Adresse oder Zahlungsdaten zurück.
+                                </p>
+                                <p class="lang-en">
+                                    For in-app purchases and subscriptions, the app uses Apple’s in-app purchase
+                                    infrastructure only. Billing is carried out via your Apple account. The developer does
+                                    not receive any personal data such as your name, email address or payment details from Apple.
+                                </p>
+
+                                <h4 class="lang-de">6. Speicherdauer</h4>
+                                <h4 class="lang-en">6. Storage period</h4>
+                                <p class="lang-de">
+                                    E-Mail-Anfragen werden von uns nur so lange gespeichert, wie dies zur Bearbeitung und
+                                    Dokumentation erforderlich ist. Gesetzliche Aufbewahrungspflichten bleiben unberührt.
+                                </p>
+                                <p class="lang-en">
+                                    Email enquiries are stored only for as long as necessary to process and document your
+                                    request. Statutory retention periods remain unaffected.
+                                </p>
+
+                                <h4 class="lang-de">7. Deine Rechte</h4>
+                                <h4 class="lang-en">7. Your rights</h4>
+                                <p class="lang-de">
+                                    Du hast nach der DSGVO insbesondere das Recht auf Auskunft, Berichtigung, Löschung,
+                                    Einschränkung der Verarbeitung, Widerspruch gegen die Verarbeitung sowie auf Datenübertragbarkeit.
+                                    Zudem hast du das Recht, dich bei einer Datenschutzaufsichtsbehörde zu beschweren.
+                                </p>
+                                <p class="lang-en">
+                                    Under the GDPR, you have in particular the right of access, rectification, erasure,
+                                    restriction of processing, objection to processing and data portability. You also have
+                                    the right to lodge a complaint with a data protection supervisory authority.
+                                </p>
+
+                                <h4 class="lang-de">8. Änderungen dieser Datenschutzerklärung</h4>
+                                <h4 class="lang-en">8. Changes to this privacy policy</h4>
+                                <p class="lang-de">
+                                    Wir behalten uns vor, diese Datenschutzerklärung zu aktualisieren, damit sie stets dem
+                                    jeweils geltenden Rechtsstand entspricht.
+                                </p>
+                                <p class="lang-en">
+                                    We reserve the right to update this privacy policy to reflect changes in legal requirements
+                                    or our data processing practices.
+                                </p>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </main>
+
+            <footer>
+                <div class="footer-inner">
+                    <div>
+                        © <span id="year"></span> Marcel du Mont – FloriNote
+                    </div>
+                    <div class="footer-links">
+                        <a href="#impressum" class="lang-de">Impressum</a>
+                        <a href="#impressum" class="lang-en">Imprint</a>
+                        <a href="#privacy" class="lang-de">Datenschutz</a>
+                        <a href="#privacy" class="lang-en">Privacy</a>
+                        <a href="#support" class="lang-de">Support</a>
+                        <a href="#support" class="lang-en">Support</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script>
+            (function () {
+                const body = document.body;
+                const themeToggle = document.getElementById('themeToggle');
+                const themeIcon = document.getElementById('themeIcon');
+                const langDeBtn = document.getElementById('langDeBtn');
+                const langEnBtn = document.getElementById('langEnBtn');
+                const yearSpan = document.getElementById('year');
+
+                // Jahreszahl im Footer
+                yearSpan.textContent = new Date().getFullYear().toString();
+
+                // Sprache setzen
+                function setLanguage(lang, fromUser) {
+                    if (lang !== 'de' && lang !== 'en') {
+                        lang = 'en';
+                    }
+                    body.classList.remove('lang-de', 'lang-en');
+                    body.classList.add('lang-' + lang);
+
+                    // html lang-Attribut aktualisieren
+                    document.documentElement.lang = lang === 'de' ? 'de' : 'en';
+
+                    // Buttons markieren
+                    if (lang === 'de') {
+                        langDeBtn.classList.add('is-active');
+                        langEnBtn.classList.remove('is-active');
+                    } else {
+                        langEnBtn.classList.add('is-active');
+                        langDeBtn.classList.remove('is-active');
+                    }
+
+                    // User-Präferenz speichern
+                    if (fromUser) {
+                        try {
+                            localStorage.setItem('siteLang', lang);
+                        } catch (e) {}
+                    }
+                }
+
+                // Theme setzen
+                function setTheme(theme, fromUser) {
+                    if (theme !== 'light' && theme !== 'dark') {
+                        theme = 'light';
+                    }
+                    body.classList.remove('theme-light', 'theme-dark');
+                    body.classList.add('theme-' + theme);
+                    themeIcon.textContent = theme === 'dark' ? '🌙' : '🌞';
+
+                    if (fromUser) {
+                        try {
+                            localStorage.setItem('siteTheme', theme);
+                        } catch (e) {}
+                    }
+                }
+
+                // Initiale Sprache (LocalStorage > Browser)
+                (function initLanguage() {
+                    let lang = 'en';
+                    try {
+                        const stored = localStorage.getItem('siteLang');
+                        if (stored) {
+                            lang = stored;
+                        } else {
+                            const navLang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+                            if (navLang.startsWith('de')) {
+                                lang = 'de';
+                            }
+                        }
+                    } catch (e) {}
+                    setLanguage(lang, false);
+                })();
+
+                // Initiales Theme (LocalStorage > prefers-color-scheme)
+                (function initTheme() {
+                    let theme = 'light';
+                    try {
+                        const stored = localStorage.getItem('siteTheme');
+                        if (stored === 'light' || stored === 'dark') {
+                            theme = stored;
+                        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                            theme = 'dark';
+                        }
+                    } catch (e) {}
+                    setTheme(theme, false);
+                })();
+
+                // Event Listener
+                langDeBtn.addEventListener('click', () => setLanguage('de', true));
+                langEnBtn.addEventListener('click', () => setLanguage('en', true));
+
+                themeToggle.addEventListener('click', () => {
+                    const isDark = body.classList.contains('theme-dark');
+                    setTheme(isDark ? 'light' : 'dark', true);
+                });
+            })();
+        </script>
+    </body>
+</html>
